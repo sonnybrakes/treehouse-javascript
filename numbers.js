@@ -1,10 +1,6 @@
-var numberOfStrats = prompt("Number of Strats");
-var numberOfTeles = prompt("Number of Teles");
-var numberOfLesPauls = prompt("Number of Les Pauls");
-var totalGuitars = parseInt(numberOfStrats) + parseFloat(numberOfTeles) + parseInt(numberOfLesPauls);
-document.write("<h2> Total number of guitars: " + totalGuitars)
+var dieRoll = Math.floor( Math.random() * 6 ) + 1;
+alert('You rolled a ' + dieRoll);
 
-var width = '190px';
-var numOfDivs = 10;
-var totalWidth = parseInt(width) * parseInt(numOfDivs);
-document.write("<h2> Total width: " + totalWidth + "px.</h2>");
+
+// var dieRoll = Math.floor(Math.random() * 6) + 1;
+// document.write("<h2>Create a random number: " + dieRoll + "</h2>");
